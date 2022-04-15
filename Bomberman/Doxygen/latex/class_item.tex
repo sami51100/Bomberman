@@ -1,0 +1,182 @@
+\hypertarget{class_item}{}\doxysection{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+
+
+classe mère item  
+
+
+
+
+{\ttfamily \#include $<$Item.\+h$>$}
+
+Inheritance diagram for Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_item}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_item_a2c675bee4551b269213618ad52d092ef}{getX}} () const
+\item 
+int \mbox{\hyperlink{class_item_a92709b64df78fe83dc336ba8d264294d}{getY}} () const
+\item 
+int \mbox{\hyperlink{class_item_a3e3c981ed1e073db047538b08a24ed32}{get\+Valeur}} () const
+\begin{DoxyCompactList}\small\item\em Get the Valeur object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_item_a0355d72d6e0e5723a1e46a59d80f12bb}{setX}} (int x)
+\item 
+void \mbox{\hyperlink{class_item_a7024137802d83b5500d9c6ed6d2760dd}{setY}} (int y)
+\item 
+void \mbox{\hyperlink{class_item_adcb1c6e7b720a50695811f856d667b5d}{set\+Valeur}} (int valeur)
+\begin{DoxyCompactList}\small\item\em Set the Valeur object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_item_ade3713b42692f3526a5078bfaf05d601}{effet\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\item 
+virtual void \mbox{\hyperlink{class_item_af92d80792caa2c1a9b71658665b3694c}{effet\+Bomb}} (\mbox{\hyperlink{class_bomb}{Bomb}} \&b)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_item_a0c74bdd2f6e56b602f3929270a244dd6}\label{class_item_a0c74bdd2f6e56b602f3929270a244dd6}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_item_a29e6ce22ef8b569cfd61686203d4ad2a}\label{class_item_a29e6ce22ef8b569cfd61686203d4ad2a}} 
+int {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_item_a4b21175b5a35aa0e335bc940a6d9d5ca}\label{class_item_a4b21175b5a35aa0e335bc940a6d9d5ca}} 
+int {\bfseries valeur} = 7
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe mère item 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_item_af92d80792caa2c1a9b71658665b3694c}\label{class_item_af92d80792caa2c1a9b71658665b3694c}} 
+\index{Item@{Item}!effetBomb@{effetBomb}}
+\index{effetBomb@{effetBomb}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{effetBomb()}{effetBomb()}}
+{\footnotesize\ttfamily void Item\+::effet\+Bomb (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_power_up_aeb40d4569cb66c32a6bc69634d8621d9}{Power\+Up}}, and \mbox{\hyperlink{class_scale_up_a601680593220bbe98c59016cd9bcf2d9}{Scale\+Up}}.
+
+\mbox{\Hypertarget{class_item_ade3713b42692f3526a5078bfaf05d601}\label{class_item_ade3713b42692f3526a5078bfaf05d601}} 
+\index{Item@{Item}!effetPlayer@{effetPlayer}}
+\index{effetPlayer@{effetPlayer}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{effetPlayer()}{effetPlayer()}}
+{\footnotesize\ttfamily void Item\+::effet\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_more_bomb_a11346b110f4e983578d259e02cc41cd4}{More\+Bomb}}, \mbox{\hyperlink{class_more_life_a553bf627ab4f968382d6e2034bce0c9d}{More\+Life}}, and \mbox{\hyperlink{class_speed_up_a7c002598d09a97b995a336265f3a7a1f}{Speed\+Up}}.
+
+\mbox{\Hypertarget{class_item_a3e3c981ed1e073db047538b08a24ed32}\label{class_item_a3e3c981ed1e073db047538b08a24ed32}} 
+\index{Item@{Item}!getValeur@{getValeur}}
+\index{getValeur@{getValeur}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getValeur()}{getValeur()}}
+{\footnotesize\ttfamily int Item\+::get\+Valeur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Valeur object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_a2c675bee4551b269213618ad52d092ef}\label{class_item_a2c675bee4551b269213618ad52d092ef}} 
+\index{Item@{Item}!getX@{getX}}
+\index{getX@{getX}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int Item\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_a92709b64df78fe83dc336ba8d264294d}\label{class_item_a92709b64df78fe83dc336ba8d264294d}} 
+\index{Item@{Item}!getY@{getY}}
+\index{getY@{getY}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int Item\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_item_adcb1c6e7b720a50695811f856d667b5d}\label{class_item_adcb1c6e7b720a50695811f856d667b5d}} 
+\index{Item@{Item}!setValeur@{setValeur}}
+\index{setValeur@{setValeur}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setValeur()}{setValeur()}}
+{\footnotesize\ttfamily void Item\+::set\+Valeur (\begin{DoxyParamCaption}\item[{int}]{valeur }\end{DoxyParamCaption})}
+
+
+
+Set the Valeur object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em valeur} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_item_a0355d72d6e0e5723a1e46a59d80f12bb}\label{class_item_a0355d72d6e0e5723a1e46a59d80f12bb}} 
+\index{Item@{Item}!setX@{setX}}
+\index{setX@{setX}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Item\+::setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_item_a7024137802d83b5500d9c6ed6d2760dd}\label{class_item_a7024137802d83b5500d9c6ed6d2760dd}} 
+\index{Item@{Item}!setY@{setY}}
+\index{setY@{setY}!Item@{Item}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily void Item\+::setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Item/entete/Item.\+h\item 
+Item/Item.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,197 @@
+\hypertarget{class_ghost}{}\doxysection{Ghost Class Reference}
+\label{class_ghost}\index{Ghost@{Ghost}}
+
+
+classe du \mbox{\hyperlink{class_ghost}{Ghost}}  
+
+
+
+
+{\ttfamily \#include $<$Ghost.\+h$>$}
+
+Inheritance diagram for Ghost\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ghost}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ghost_a2e38d3c0c8546cceb74777b49a8e3bb7}{Ghost}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_ghost}{Ghost}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ghost_a7224354a3318a4e146579a8dd638a041}{Ghost}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_ghost}{Ghost}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ghost_acd13d5a50f06be1b8dcdfff54d2fc2cc}{attaquer\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\begin{DoxyCompactList}\small\item\em methode pour attaquer le player \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ghost_a6ad4f696942e457ee3395312ed800387}{recevoir\+Degat}} (\mbox{\hyperlink{class_bomb}{Bomb}} \&boom)
+\begin{DoxyCompactList}\small\item\em methode pour recevoir des degats \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_ghost_a64dd537023c82b898352eba79da71a77}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_ghost}{Ghost}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge operateur \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_ghost_a501c0d3298d95bf447b79d3f88531ea7}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{class_ghost}{Ghost}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge operateur \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+classe du \mbox{\hyperlink{class_ghost}{Ghost}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ghost_a2e38d3c0c8546cceb74777b49a8e3bb7}\label{class_ghost_a2e38d3c0c8546cceb74777b49a8e3bb7}} 
+\index{Ghost@{Ghost}!Ghost@{Ghost}}
+\index{Ghost@{Ghost}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{Ghost()}{Ghost()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Ghost\+::\+Ghost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_ghost}{Ghost}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{class_ghost_a7224354a3318a4e146579a8dd638a041}\label{class_ghost_a7224354a3318a4e146579a8dd638a041}} 
+\index{Ghost@{Ghost}!Ghost@{Ghost}}
+\index{Ghost@{Ghost}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{Ghost()}{Ghost()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Ghost\+::\+Ghost (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_ghost}{Ghost}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ghost_acd13d5a50f06be1b8dcdfff54d2fc2cc}\label{class_ghost_acd13d5a50f06be1b8dcdfff54d2fc2cc}} 
+\index{Ghost@{Ghost}!attaquerPlayer@{attaquerPlayer}}
+\index{attaquerPlayer@{attaquerPlayer}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{attaquerPlayer()}{attaquerPlayer()}}
+{\footnotesize\ttfamily void Ghost\+::attaquer\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode pour attaquer le player 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_ad32f819e4c643251dbc6d89496813759}{Ennemi}}.
+
+\mbox{\Hypertarget{class_ghost_a6ad4f696942e457ee3395312ed800387}\label{class_ghost_a6ad4f696942e457ee3395312ed800387}} 
+\index{Ghost@{Ghost}!recevoirDegat@{recevoirDegat}}
+\index{recevoirDegat@{recevoirDegat}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{recevoirDegat()}{recevoirDegat()}}
+{\footnotesize\ttfamily void Ghost\+::recevoir\+Degat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{boom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode pour recevoir des degats 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em boom} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}{Ennemi}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_ghost_a64dd537023c82b898352eba79da71a77}\label{class_ghost_a64dd537023c82b898352eba79da71a77}} 
+\index{Ghost@{Ghost}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_ghost}{Ghost}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge operateur 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\&
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ghost_a501c0d3298d95bf447b79d3f88531ea7}\label{class_ghost_a501c0d3298d95bf447b79d3f88531ea7}} 
+\index{Ghost@{Ghost}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Ghost@{Ghost}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_ghost}{Ghost}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge operateur 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\&
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ennemi/entete/Ghost.\+h\item 
+Ennemi/Ghost.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,159 @@
+\hypertarget{class_bowman}{}\doxysection{Bowman Class Reference}
+\label{class_bowman}\index{Bowman@{Bowman}}
+
+
+classe du bowman  
+
+
+
+
+{\ttfamily \#include $<$Bowman.\+h$>$}
+
+Inheritance diagram for Bowman\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bowman}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bowman_aca77d7e8ef5adfe4cb34859d489e740d}\label{class_bowman_aca77d7e8ef5adfe4cb34859d489e740d}} 
+{\bfseries Bowman} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_bowman}{Bowman}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bowman_a09e5e62a44cce682bbf4d18677d64e1b}{Bowman}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_bowman}{Bowman}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bowman_a690117044e6f8a421bbfd3863e19ca7a}{attaquer\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\begin{DoxyCompactList}\small\item\em methode pour attaquer le player \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bowman_a7236d338ded4e914bf489519bf286cfc}{recevoir\+Degat}} (\mbox{\hyperlink{class_bomb}{Bomb}} \&boom)
+\begin{DoxyCompactList}\small\item\em methode pour recevoir les degats de la bombe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_bowman_a68d2c3e3715d9aa685bc8b2b44dd1cdc}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_bowman}{Bowman}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}operateur de sortie cout \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_bowman_a69b86d82e9fe1beda2a78a416e37deaa}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{class_bowman}{Bowman}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}operateur d\textquotesingle{}entrée cin \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+classe du bowman 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bowman_a09e5e62a44cce682bbf4d18677d64e1b}\label{class_bowman_a09e5e62a44cce682bbf4d18677d64e1b}} 
+\index{Bowman@{Bowman}!Bowman@{Bowman}}
+\index{Bowman@{Bowman}!Bowman@{Bowman}}
+\doxysubsubsection{\texorpdfstring{Bowman()}{Bowman()}}
+{\footnotesize\ttfamily Bowman\+::\+Bowman (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_bowman}{Bowman}} object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bowman_a690117044e6f8a421bbfd3863e19ca7a}\label{class_bowman_a690117044e6f8a421bbfd3863e19ca7a}} 
+\index{Bowman@{Bowman}!attaquerPlayer@{attaquerPlayer}}
+\index{attaquerPlayer@{attaquerPlayer}!Bowman@{Bowman}}
+\doxysubsubsection{\texorpdfstring{attaquerPlayer()}{attaquerPlayer()}}
+{\footnotesize\ttfamily void Bowman\+::attaquer\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode pour attaquer le player 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_ad32f819e4c643251dbc6d89496813759}{Ennemi}}.
+
+\mbox{\Hypertarget{class_bowman_a7236d338ded4e914bf489519bf286cfc}\label{class_bowman_a7236d338ded4e914bf489519bf286cfc}} 
+\index{Bowman@{Bowman}!recevoirDegat@{recevoirDegat}}
+\index{recevoirDegat@{recevoirDegat}!Bowman@{Bowman}}
+\doxysubsubsection{\texorpdfstring{recevoirDegat()}{recevoirDegat()}}
+{\footnotesize\ttfamily void Bowman\+::recevoir\+Degat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{boom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode pour recevoir les degats de la bombe 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em boom} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}{Ennemi}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_bowman_a68d2c3e3715d9aa685bc8b2b44dd1cdc}\label{class_bowman_a68d2c3e3715d9aa685bc8b2b44dd1cdc}} 
+\index{Bowman@{Bowman}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Bowman@{Bowman}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_bowman}{Bowman}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge de l\textquotesingle{}operateur de sortie cout 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bowman_a69b86d82e9fe1beda2a78a416e37deaa}\label{class_bowman_a69b86d82e9fe1beda2a78a416e37deaa}} 
+\index{Bowman@{Bowman}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Bowman@{Bowman}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_bowman}{Bowman}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge de l\textquotesingle{}operateur d\textquotesingle{}entrée cin 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ennemi/entete/Bowman.\+h\item 
+Ennemi/Bowman.\+cpp\end{DoxyCompactItemize}

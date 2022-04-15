@@ -1,0 +1,63 @@
+\hypertarget{_bomberman_8h_source}{}\doxysection{Bomberman.\+h}
+\label{_bomberman_8h_source}\index{Joueur/entete/Bomberman.h@{Joueur/entete/Bomberman.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_BOMBERMAN\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_BOMBERMAN\_\_}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}Bomb.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_bomberman}{Bomberman}}}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{15         std::string nom;}
+\DoxyCodeLine{16         \textcolor{keywordtype}{int} vie = 100;}
+\DoxyCodeLine{17         \textcolor{keywordtype}{int} x;}
+\DoxyCodeLine{18         \textcolor{keywordtype}{int} y;}
+\DoxyCodeLine{19         \textcolor{keywordtype}{int} vitesse = 1;}
+\DoxyCodeLine{20         \textcolor{keywordtype}{int} nbBomb = 3;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22         \textcolor{keywordtype}{int} valeur = 1;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{keyword}{public}:}
+\DoxyCodeLine{25         \textcolor{keywordtype}{bool} Vivant = \textcolor{keyword}{false};}
+\DoxyCodeLine{26         std::vector<Bomb> tabB;}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28         \mbox{\hyperlink{class_bomb}{Bomb}} boom;}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{41         \mbox{\hyperlink{class_bomberman_adeb46eff1b0f84642c6f692e307e8e92}{Bomberman}}(std::string nom, \textcolor{keywordtype}{int} vie, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} vitesse, \textcolor{keywordtype}{int} nbBomb, \mbox{\hyperlink{class_bomb}{Bomb}} boom);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{47         \mbox{\hyperlink{class_bomberman_adeb46eff1b0f84642c6f692e307e8e92}{Bomberman}}();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{54         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_a25b96eba887477998856d90cc025b84b}{getX}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{61         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_a73dad91c1ca6555b556e4cb86678a624}{getY}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{68         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_afda39042df7cbc9273ae003fff9912d8}{getVie}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{75         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_aeda47741aba570bdf38731dfb6bc6174}{getVitesse}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{82         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_ad9a455dd4e56dcf2ba1bf59c70182c4d}{getNbBomb}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{89         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomberman_a6a8fbcdbf2592373534342a52bd874bb}{getValeur}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{96         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomberman_a8185b5a204160f4c73a9157bde92a37d}{setX}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{103         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomberman_ab8ea6075dd21be984e1062a5fbfa03f8}{setY}}(\textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{110         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomberman_a8e235376e79f4184e2daf248e9e4b00a}{setVie}}(\textcolor{keywordtype}{int} vie);}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{117         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomberman_a11c1139077a5040983646c57fc71143c}{setVitesse}}(\textcolor{keywordtype}{int} vitesse);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{124         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomberman_a5cf19d99baf3498747f747c5f18b2056}{setNbBomb}}(\textcolor{keywordtype}{int} nbBomb);}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{133         \textcolor{keyword}{friend} std::ostream \&\mbox{\hyperlink{class_bomberman_a174f658e7a87c3d723fbd130a0370ce9}{operator<<}}(std::ostream \&os, \textcolor{keyword}{const} \mbox{\hyperlink{class_bomberman}{Bomberman}} \&p);}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{142         \textcolor{keyword}{friend} std::istream \&\mbox{\hyperlink{class_bomberman_ab8680ae266cfecb389a9b272cea364d8}{operator>>}}(std::istream \&is, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&p);}
+\DoxyCodeLine{143 \};}
+\DoxyCodeLine{144 }
+\DoxyCodeLine{145 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

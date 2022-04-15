@@ -1,0 +1,326 @@
+\begin{theindex}
+
+  \item {afficher}
+    \subitem {Map}, \hyperpage{41}
+  \item {attaquerPlayer}
+    \subitem {Bowman}, \hyperpage{25}
+    \subitem {Ennemi}, \hyperpage{28}
+    \subitem {Ghost}, \hyperpage{33}
+    \subitem {Monster}, \hyperpage{47}
+
+  \indexspace
+
+  \item {Bomb}, \hyperpage{7}
+    \subitem {Bomb}, \hyperpage{8, 9}
+    \subitem {getBomb}, \hyperpage{9}
+    \subitem {getCompteur}, \hyperpage{10}
+    \subitem {getDegat}, \hyperpage{10}
+    \subitem {getExplosionH}, \hyperpage{10}
+    \subitem {getExplosionV}, \hyperpage{10}
+    \subitem {getPortee}, \hyperpage{11}
+    \subitem {getTmpi}, \hyperpage{11}
+    \subitem {getTmpj}, \hyperpage{11}
+    \subitem {getVarb}, \hyperpage{12}
+    \subitem {getX}, \hyperpage{12}
+    \subitem {getY}, \hyperpage{12}
+    \subitem {operator$<$$<$}, \hyperpage{15}
+    \subitem {operator$>$$>$}, \hyperpage{16}
+    \subitem {setCompteur}, \hyperpage{13}
+    \subitem {setDegat}, \hyperpage{13}
+    \subitem {setPortee}, \hyperpage{13}
+    \subitem {setTmpi}, \hyperpage{14}
+    \subitem {setTmpj}, \hyperpage{14}
+    \subitem {setX}, \hyperpage{15}
+    \subitem {setY}, \hyperpage{15}
+  \item {Bomberman}, \hyperpage{17}
+    \subitem {Bomberman}, \hyperpage{18, 19}
+    \subitem {getNbBomb}, \hyperpage{19}
+    \subitem {getValeur}, \hyperpage{19}
+    \subitem {getVie}, \hyperpage{19}
+    \subitem {getVitesse}, \hyperpage{20}
+    \subitem {getX}, \hyperpage{20}
+    \subitem {getY}, \hyperpage{20}
+    \subitem {operator$<$$<$}, \hyperpage{23}
+    \subitem {operator$>$$>$}, \hyperpage{23}
+    \subitem {setNbBomb}, \hyperpage{21}
+    \subitem {setVie}, \hyperpage{21}
+    \subitem {setVitesse}, \hyperpage{21}
+    \subitem {setX}, \hyperpage{22}
+    \subitem {setY}, \hyperpage{22}
+  \item {Bowman}, \hyperpage{24}
+    \subitem {attaquerPlayer}, \hyperpage{25}
+    \subitem {Bowman}, \hyperpage{24}
+    \subitem {operator$<$$<$}, \hyperpage{26}
+    \subitem {operator$>$$>$}, \hyperpage{26}
+    \subitem {recevoirDegat}, \hyperpage{25}
+
+  \indexspace
+
+  \item {convertir}
+    \subitem {Map}, \hyperpage{41}
+  \item {creerMap}
+    \subitem {Map}, \hyperpage{41}
+
+  \indexspace
+
+  \item {effetBomb}
+    \subitem {Item}, \hyperpage{36}
+    \subitem {PowerUp}, \hyperpage{54}
+    \subitem {ScaleUp}, \hyperpage{59}
+  \item {effetItem}
+    \subitem {Map}, \hyperpage{41}
+  \item {effetMonstre}
+    \subitem {Map}, \hyperpage{42}
+  \item {effetPlayer}
+    \subitem {Item}, \hyperpage{37}
+    \subitem {MoreBomb}, \hyperpage{51}
+    \subitem {MoreLife}, \hyperpage{53}
+    \subitem {SpeedUp}, \hyperpage{60}
+  \item {Ennemi}, \hyperpage{27}
+    \subitem {attaquerPlayer}, \hyperpage{28}
+    \subitem {getNbattaque}, \hyperpage{28}
+    \subitem {getNbvie}, \hyperpage{28}
+    \subitem {getValeur}, \hyperpage{29}
+    \subitem {getX}, \hyperpage{29}
+    \subitem {getY}, \hyperpage{29}
+    \subitem {recevoirDegat}, \hyperpage{30}
+    \subitem {setNbattaque}, \hyperpage{30}
+    \subitem {setNbvie}, \hyperpage{31}
+    \subitem {setX}, \hyperpage{31}
+    \subitem {setY}, \hyperpage{31}
+  \item {Ennemi/entete/Bowman.h}, \hyperpage{65}
+  \item {Ennemi/entete/Ennemi.h}, \hyperpage{65}
+  \item {Ennemi/entete/Ghost.h}, \hyperpage{66}
+  \item {Ennemi/entete/Monster.h}, \hyperpage{66}
+  \item {explosionBombe}
+    \subitem {Map}, \hyperpage{43}
+
+  \indexspace
+
+  \item {getBomb}
+    \subitem {Bomb}, \hyperpage{9}
+  \item {getCompteur}
+    \subitem {Bomb}, \hyperpage{10}
+  \item {getDegat}
+    \subitem {Bomb}, \hyperpage{10}
+  \item {getExplosionH}
+    \subitem {Bomb}, \hyperpage{10}
+  \item {getExplosionV}
+    \subitem {Bomb}, \hyperpage{10}
+  \item {getNbattaque}
+    \subitem {Ennemi}, \hyperpage{28}
+  \item {getNbBomb}
+    \subitem {Bomberman}, \hyperpage{19}
+  \item {getNbVie}
+    \subitem {Sand}, \hyperpage{56}
+  \item {getNbvie}
+    \subitem {Ennemi}, \hyperpage{28}
+  \item {getPortee}
+    \subitem {Bomb}, \hyperpage{11}
+  \item {getTmpi}
+    \subitem {Bomb}, \hyperpage{11}
+  \item {getTmpj}
+    \subitem {Bomb}, \hyperpage{11}
+  \item {getValeur}
+    \subitem {Bomberman}, \hyperpage{19}
+    \subitem {Ennemi}, \hyperpage{29}
+    \subitem {Item}, \hyperpage{37}
+    \subitem {Tile}, \hyperpage{62}
+  \item {getVarb}
+    \subitem {Bomb}, \hyperpage{12}
+  \item {getVie}
+    \subitem {Bomberman}, \hyperpage{19}
+  \item {getVitesse}
+    \subitem {Bomberman}, \hyperpage{20}
+  \item {getX}
+    \subitem {Bomb}, \hyperpage{12}
+    \subitem {Bomberman}, \hyperpage{20}
+    \subitem {Ennemi}, \hyperpage{29}
+    \subitem {Item}, \hyperpage{37}
+    \subitem {Tile}, \hyperpage{62}
+  \item {getY}
+    \subitem {Bomb}, \hyperpage{12}
+    \subitem {Bomberman}, \hyperpage{20}
+    \subitem {Ennemi}, \hyperpage{29}
+    \subitem {Item}, \hyperpage{37}
+    \subitem {Tile}, \hyperpage{62}
+  \item {Ghost}, \hyperpage{32}
+    \subitem {attaquerPlayer}, \hyperpage{33}
+    \subitem {Ghost}, \hyperpage{33}
+    \subitem {operator$<$$<$}, \hyperpage{34}
+    \subitem {operator$>$$>$}, \hyperpage{35}
+    \subitem {recevoirDegat}, \hyperpage{34}
+
+  \indexspace
+
+  \item {Item}, \hyperpage{36}
+    \subitem {effetBomb}, \hyperpage{36}
+    \subitem {effetPlayer}, \hyperpage{37}
+    \subitem {getValeur}, \hyperpage{37}
+    \subitem {getX}, \hyperpage{37}
+    \subitem {getY}, \hyperpage{37}
+    \subitem {setValeur}, \hyperpage{38}
+    \subitem {setX}, \hyperpage{38}
+    \subitem {setY}, \hyperpage{38}
+  \item {Item/entete/Item.h}, \hyperpage{66}
+  \item {Item/entete/MoreBomb.h}, \hyperpage{67}
+  \item {Item/entete/MoreLife.h}, \hyperpage{67}
+  \item {Item/entete/PowerUp.h}, \hyperpage{68}
+  \item {Item/entete/ScaleUp.h}, \hyperpage{68}
+  \item {Item/entete/SpeedUp.h}, \hyperpage{68}
+
+  \indexspace
+
+  \item {Joueur/entete/Bomb.h}, \hyperpage{68}
+  \item {Joueur/entete/Bomberman.h}, \hyperpage{69}
+
+  \indexspace
+
+  \item {Map}, \hyperpage{39}
+    \subitem {afficher}, \hyperpage{41}
+    \subitem {convertir}, \hyperpage{41}
+    \subitem {creerMap}, \hyperpage{41}
+    \subitem {effetItem}, \hyperpage{41}
+    \subitem {effetMonstre}, \hyperpage{42}
+    \subitem {explosionBombe}, \hyperpage{43}
+    \subitem {Map}, \hyperpage{40}
+    \subitem {mouvementMonstre}, \hyperpage{43}
+    \subitem {mouvementPlayer}, \hyperpage{43}
+    \subitem {remplirItem}, \hyperpage{44}
+    \subitem {remplirMonstre}, \hyperpage{44}
+    \subitem {remplirMur}, \hyperpage{44}
+    \subitem {remplirPlayer}, \hyperpage{45}
+    \subitem {remplirSable}, \hyperpage{45}
+    \subitem {tuerMonstre}, \hyperpage{45}
+    \subitem {victoire}, \hyperpage{45}
+  \item {Map/entete/Map.h}, \hyperpage{70}
+  \item {Map/entete/Sand.h}, \hyperpage{71}
+  \item {Map/entete/Tile.h}, \hyperpage{71}
+  \item {Map/entete/Wall.h}, \hyperpage{72}
+  \item {Monster}, \hyperpage{46}
+    \subitem {attaquerPlayer}, \hyperpage{47}
+    \subitem {Monster}, \hyperpage{47}
+    \subitem {operator$<$$<$}, \hyperpage{48}
+    \subitem {operator$>$$>$}, \hyperpage{49}
+    \subitem {recevoirDegat}, \hyperpage{48}
+  \item {MoreBomb}, \hyperpage{49}
+    \subitem {effetPlayer}, \hyperpage{51}
+    \subitem {MoreBomb}, \hyperpage{50}
+  \item {MoreLife}, \hyperpage{51}
+    \subitem {effetPlayer}, \hyperpage{53}
+    \subitem {MoreLife}, \hyperpage{52}
+  \item {mouvementMonstre}
+    \subitem {Map}, \hyperpage{43}
+  \item {mouvementPlayer}
+    \subitem {Map}, \hyperpage{43}
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {Bomb}, \hyperpage{15}
+    \subitem {Bomberman}, \hyperpage{23}
+    \subitem {Bowman}, \hyperpage{26}
+    \subitem {Ghost}, \hyperpage{34}
+    \subitem {Monster}, \hyperpage{48}
+  \item {operator$>$$>$}
+    \subitem {Bomb}, \hyperpage{16}
+    \subitem {Bomberman}, \hyperpage{23}
+    \subitem {Bowman}, \hyperpage{26}
+    \subitem {Ghost}, \hyperpage{35}
+    \subitem {Monster}, \hyperpage{49}
+
+  \indexspace
+
+  \item {PowerUp}, \hyperpage{53}
+    \subitem {effetBomb}, \hyperpage{54}
+    \subitem {PowerUp}, \hyperpage{54}
+
+  \indexspace
+
+  \item {recevoirDegat}
+    \subitem {Bowman}, \hyperpage{25}
+    \subitem {Ennemi}, \hyperpage{30}
+    \subitem {Ghost}, \hyperpage{34}
+    \subitem {Monster}, \hyperpage{48}
+  \item {remplirItem}
+    \subitem {Map}, \hyperpage{44}
+  \item {remplirMonstre}
+    \subitem {Map}, \hyperpage{44}
+  \item {remplirMur}
+    \subitem {Map}, \hyperpage{44}
+  \item {remplirPlayer}
+    \subitem {Map}, \hyperpage{45}
+  \item {remplirSable}
+    \subitem {Map}, \hyperpage{45}
+
+  \indexspace
+
+  \item {Sand}, \hyperpage{55}
+    \subitem {getNbVie}, \hyperpage{56}
+    \subitem {Sand}, \hyperpage{56}
+    \subitem {setNbVie}, \hyperpage{57}
+  \item {ScaleUp}, \hyperpage{57}
+    \subitem {effetBomb}, \hyperpage{59}
+    \subitem {ScaleUp}, \hyperpage{58}
+  \item {setCompteur}
+    \subitem {Bomb}, \hyperpage{13}
+  \item {setDegat}
+    \subitem {Bomb}, \hyperpage{13}
+  \item {setNbattaque}
+    \subitem {Ennemi}, \hyperpage{30}
+  \item {setNbBomb}
+    \subitem {Bomberman}, \hyperpage{21}
+  \item {setNbVie}
+    \subitem {Sand}, \hyperpage{57}
+  \item {setNbvie}
+    \subitem {Ennemi}, \hyperpage{31}
+  \item {setPortee}
+    \subitem {Bomb}, \hyperpage{13}
+  \item {setTmpi}
+    \subitem {Bomb}, \hyperpage{14}
+  \item {setTmpj}
+    \subitem {Bomb}, \hyperpage{14}
+  \item {setValeur}
+    \subitem {Item}, \hyperpage{38}
+  \item {setVie}
+    \subitem {Bomberman}, \hyperpage{21}
+  \item {setVitesse}
+    \subitem {Bomberman}, \hyperpage{21}
+  \item {setX}
+    \subitem {Bomb}, \hyperpage{15}
+    \subitem {Bomberman}, \hyperpage{22}
+    \subitem {Ennemi}, \hyperpage{31}
+    \subitem {Item}, \hyperpage{38}
+    \subitem {Tile}, \hyperpage{62}
+  \item {setY}
+    \subitem {Bomb}, \hyperpage{15}
+    \subitem {Bomberman}, \hyperpage{22}
+    \subitem {Ennemi}, \hyperpage{31}
+    \subitem {Item}, \hyperpage{38}
+    \subitem {Tile}, \hyperpage{63}
+  \item {SpeedUp}, \hyperpage{59}
+    \subitem {effetPlayer}, \hyperpage{60}
+    \subitem {SpeedUp}, \hyperpage{60}
+
+  \indexspace
+
+  \item {Tile}, \hyperpage{61}
+    \subitem {getValeur}, \hyperpage{62}
+    \subitem {getX}, \hyperpage{62}
+    \subitem {getY}, \hyperpage{62}
+    \subitem {setX}, \hyperpage{62}
+    \subitem {setY}, \hyperpage{63}
+  \item {tuerMonstre}
+    \subitem {Map}, \hyperpage{45}
+
+  \indexspace
+
+  \item {victoire}
+    \subitem {Map}, \hyperpage{45}
+
+  \indexspace
+
+  \item {Wall}, \hyperpage{63}
+    \subitem {Wall}, \hyperpage{64}
+
+\end{theindex}

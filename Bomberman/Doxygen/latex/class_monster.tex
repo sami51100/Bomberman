@@ -1,0 +1,176 @@
+\hypertarget{class_monster}{}\doxysection{Monster Class Reference}
+\label{class_monster}\index{Monster@{Monster}}
+
+
+classe du monstre  
+
+
+
+
+{\ttfamily \#include $<$Monster.\+h$>$}
+
+Inheritance diagram for Monster\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_monster}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_monster_a3dfc253fbec8331d42ac13c20bf9425f}{Monster}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_monster}{Monster}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_monster_a1b7d0b0fcafa123b56537362c40b8a29}{Monster}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_monster}{Monster}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_monster_a4b3521c82de803dbde9064462c761f02}{attaquer\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\item 
+void \mbox{\hyperlink{class_monster_ac66eff770a945089543f9c7ffdbbc158}{recevoir\+Degat}} (\mbox{\hyperlink{class_bomb}{Bomb}} \&boom)
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_monster_a25298d54b1e0f8a9f7f186c129941e8c}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_monster}{Monster}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}opérateur cout \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{class_monster_a2ace5417bb9b157754131e5cb6032926}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{class_monster}{Monster}} \&p)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}opérateur cin \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+classe du monstre 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_monster_a3dfc253fbec8331d42ac13c20bf9425f}\label{class_monster_a3dfc253fbec8331d42ac13c20bf9425f}} 
+\index{Monster@{Monster}!Monster@{Monster}}
+\index{Monster@{Monster}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{Monster()}{Monster()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Monster\+::\+Monster (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_monster}{Monster}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{class_monster_a1b7d0b0fcafa123b56537362c40b8a29}\label{class_monster_a1b7d0b0fcafa123b56537362c40b8a29}} 
+\index{Monster@{Monster}!Monster@{Monster}}
+\index{Monster@{Monster}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{Monster()}{Monster()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Monster\+::\+Monster (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_monster}{Monster}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_monster_a4b3521c82de803dbde9064462c761f02}\label{class_monster_a4b3521c82de803dbde9064462c761f02}} 
+\index{Monster@{Monster}!attaquerPlayer@{attaquerPlayer}}
+\index{attaquerPlayer@{attaquerPlayer}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{attaquerPlayer()}{attaquerPlayer()}}
+{\footnotesize\ttfamily void Monster\+::attaquer\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_ad32f819e4c643251dbc6d89496813759}{Ennemi}}.
+
+\mbox{\Hypertarget{class_monster_ac66eff770a945089543f9c7ffdbbc158}\label{class_monster_ac66eff770a945089543f9c7ffdbbc158}} 
+\index{Monster@{Monster}!recevoirDegat@{recevoirDegat}}
+\index{recevoirDegat@{recevoirDegat}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{recevoirDegat()}{recevoirDegat()}}
+{\footnotesize\ttfamily void Monster\+::recevoir\+Degat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{boom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em boom} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}{Ennemi}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_monster_a25298d54b1e0f8a9f7f186c129941e8c}\label{class_monster_a25298d54b1e0f8a9f7f186c129941e8c}} 
+\index{Monster@{Monster}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_monster}{Monster}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge de l\textquotesingle{}opérateur cout 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_monster_a2ace5417bb9b157754131e5cb6032926}\label{class_monster_a2ace5417bb9b157754131e5cb6032926}} 
+\index{Monster@{Monster}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Monster@{Monster}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_monster}{Monster}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+surcharge de l\textquotesingle{}opérateur cin 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\&
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ennemi/entete/Monster.\+h\item 
+Ennemi/Monster.\+cpp\end{DoxyCompactItemize}

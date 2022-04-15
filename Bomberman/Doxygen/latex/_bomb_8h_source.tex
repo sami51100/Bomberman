@@ -1,0 +1,79 @@
+\hypertarget{_bomb_8h_source}{}\doxysection{Bomb.\+h}
+\label{_bomb_8h_source}\index{Joueur/entete/Bomb.h@{Joueur/entete/Bomb.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_BOMB\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_BOMB\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_bomb}{Bomb}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} portee = 1;}
+\DoxyCodeLine{15     \textcolor{keywordtype}{int} degat = 50;}
+\DoxyCodeLine{16     \textcolor{keywordtype}{int} x;}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int} y;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keywordtype}{int} varb = 11;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} bomb = 111;}
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} explosionH = 1111;}
+\DoxyCodeLine{22     \textcolor{keywordtype}{int} explosionV = 11111;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} compteur = 0;}
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} tmpi = -\/1;}
+\DoxyCodeLine{26     \textcolor{keywordtype}{int} tmpj = -\/1;}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29     \textcolor{keywordtype}{bool} poser = \textcolor{keyword}{false};}
+\DoxyCodeLine{35     \mbox{\hyperlink{class_bomb_a5805401b6cfbb451cf31ebd4851740cf}{Bomb}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{45     \mbox{\hyperlink{class_bomb_a5805401b6cfbb451cf31ebd4851740cf}{Bomb}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} degat, \textcolor{keywordtype}{int} portee);}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ace850f3b24708bdfcb3bb88434642c9c}{getPortee}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{61     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_a79042e626e814b73de5195c59fde08bb}{getDegat}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{69     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_a9783cf547a5ef5cf224b964ed30e8008}{getX}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{77     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ab1d447bb08a6fd78f79caba03308be19}{getY}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{85     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ad785a111e1133b47ea4f818eedc6533d}{getVarb}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{93     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ad335d5d9f14e9e2164ee4a0ff3ea7758}{getBomb}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{101     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ac6306e50e9a46a028ec4bd63df049dc5}{getExplosionH}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{108     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_a7702856c5dade5a3a7ba494ab428268a}{getExplosionV}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{116     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_a9f0c09f2756f83583f82cbdcc164caaa}{getCompteur}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{124     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_ab3d2b6c2d8ff51fdaec64ffce3366103}{getTmpi}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{132     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bomb_aa9859e3b73cb173e9c45fe9693a50dc3}{getTmpj}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{133 }
+\DoxyCodeLine{140     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_a5dcaefec6bce6481b1d1374da17a1cf3}{setPortee}}(\textcolor{keywordtype}{int} portee);}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{148     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_a5613bc24282647a68137885499b00f09}{setDegat}}(\textcolor{keywordtype}{int} degat);}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{156     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_a98a0282a6c695f0fc6a0a05683084bd9}{setX}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{157 }
+\DoxyCodeLine{164     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_aea71ea33e134e588cbd0a67b7f4932c5}{setY}}(\textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{165 }
+\DoxyCodeLine{172     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_a694fb380b4abee3ce46eef851c505b51}{setCompteur}}(\textcolor{keywordtype}{int} compteur);}
+\DoxyCodeLine{173 }
+\DoxyCodeLine{180     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_a2e2181a83466517fdb49b7a01c0b9871}{setTmpi}}(\textcolor{keywordtype}{int} tmpi);}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{188     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bomb_adeec111ecad04ee60ca6d461463f6e51}{setTmpj}}(\textcolor{keywordtype}{int} tmpj);}
+\DoxyCodeLine{189 }
+\DoxyCodeLine{190     \textcolor{keywordtype}{void} BombePosee();}
+\DoxyCodeLine{191 }
+\DoxyCodeLine{200     \textcolor{keyword}{friend} std::ostream \&\mbox{\hyperlink{class_bomb_abb821d24f39d169b467755611b6d7fef}{operator<<}}(std::ostream \&os, \textcolor{keyword}{const} \mbox{\hyperlink{class_bomb}{Bomb}} \&p);}
+\DoxyCodeLine{201 }
+\DoxyCodeLine{210     \textcolor{keyword}{friend} std::istream \&\mbox{\hyperlink{class_bomb_a033edf7cae5991909f063fe013d8dce9}{operator>>}}(std::istream \&is, \mbox{\hyperlink{class_bomb}{Bomb}} \&p);}
+\DoxyCodeLine{211 \};}
+\DoxyCodeLine{212 }
+\DoxyCodeLine{213 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

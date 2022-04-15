@@ -1,0 +1,86 @@
+\hypertarget{_map_8h_source}{}\doxysection{Map.\+h}
+\label{_map_8h_source}\index{Map/entete/Map.h@{Map/entete/Map.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_MAP\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_MAP\_\_}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <windows.h>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <cstring>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}../../Item/entete/MoreLife.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}../../Item/entete/SpeedUp.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}../../Item/entete/MoreBomb.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}../../Item/entete/ScaleUp.h"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}../../Item/entete/PowerUp.h"{}}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}Sand.h"{}}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}Wall.h"{}}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}../../Ennemi/entete/Monster.h"{}}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include "{}../../Ennemi/entete/Ghost.h"{}}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include "{}../../Ennemi/entete/Bowman.h"{}}}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{25 \textcolor{keyword}{class }\mbox{\hyperlink{class_map}{Map}}}
+\DoxyCodeLine{26 \{}
+\DoxyCodeLine{27 \textcolor{keyword}{public}:}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} \textcolor{keyword}{const} \textcolor{keyword}{static} nbligne = 14;}
+\DoxyCodeLine{29     \textcolor{keywordtype}{int} \textcolor{keyword}{const} \textcolor{keyword}{static} nbcolonne = 14;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int} tab[nbligne][nbcolonne];}
+\DoxyCodeLine{31     std::string nom;}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33     \mbox{\hyperlink{class_monster}{Monster}} mons;}
+\DoxyCodeLine{34     \mbox{\hyperlink{class_ghost}{Ghost}} ghos;}
+\DoxyCodeLine{35     \mbox{\hyperlink{class_bowman}{Bowman}} bowm;}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37     \mbox{\hyperlink{class_bomberman}{Bomberman}} player1;}
+\DoxyCodeLine{38     \mbox{\hyperlink{class_bomb}{Bomb}} bomb1;}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40     \mbox{\hyperlink{class_wall}{Wall}} wall;}
+\DoxyCodeLine{41     \mbox{\hyperlink{class_sand}{Sand}} sand;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \mbox{\hyperlink{class_more_life}{MoreLife}} morL;}
+\DoxyCodeLine{44     \mbox{\hyperlink{class_more_bomb}{MoreBomb}} morB;}
+\DoxyCodeLine{45     \mbox{\hyperlink{class_speed_up}{SpeedUp}} spee;}
+\DoxyCodeLine{46     \mbox{\hyperlink{class_scale_up}{ScaleUp}} scal;}
+\DoxyCodeLine{47     \mbox{\hyperlink{class_power_up}{PowerUp}} power;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     std::vector<Ennemi *> tabM;}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{56     \mbox{\hyperlink{class_map_a5bb31030f5995a51a511020589af085a}{Map}}(std::string nom);}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{62     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a3e5323a1a499615842e82268202835a1}{afficher}}();}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{69     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a631a845589a343ba46456209aa6a0d05}{creerMap}}();}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{79     std::string \mbox{\hyperlink{class_map_a75a868872f271da42e5dc73b3100b11c}{convertir}}(\textcolor{keywordtype}{int} i, \textcolor{keywordtype}{int} j);}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_aa891d7b3e71139d484597804a434ea14}{remplirMur}}(\mbox{\hyperlink{class_tile}{Tile}} w);}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{95     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_aa84dc540500187118d75afc1d93e1d67}{remplirSable}}(\mbox{\hyperlink{class_tile}{Tile}} w);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{103     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a7a351146fbc6bc97c05a96a9691b5679}{remplirItem}}(\mbox{\hyperlink{class_item}{Item}} \&k);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{111     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a80f12f3e816d076b1a11c08e9a5106af}{remplirPlayer}}(\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b);}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{124     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a3d502d5da3943efb2ca41ad99661dbe3}{mouvementPlayer}}(\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb, \mbox{\hyperlink{class_item}{Item}} \&k1, \mbox{\hyperlink{class_item}{Item}} \&k2, \mbox{\hyperlink{class_item}{Item}} \&k3, \mbox{\hyperlink{class_item}{Item}} \&k4, \mbox{\hyperlink{class_item}{Item}} \&k5);}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{131     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a98874d185347fb2832c05a2efb5f5205}{remplirMonstre}}(\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b);}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{140     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a3781a1ce34aca9bc339638a163f6d61f}{mouvementMonstre}}(\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&bo);}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{152     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a79ed35768a30ddf7b61b01bf078b1a12}{effetMonstre}}(\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&bo, \textcolor{keywordtype}{int} DI, \textcolor{keywordtype}{int} DJ, \textcolor{keywordtype}{int} deplacement);}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{161     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_a15ef88ae87b77c6700521bc44d867a47}{explosionBombe}}(\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb);}
+\DoxyCodeLine{162 }
+\DoxyCodeLine{177     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_affcae4eeaae46467c650293445dfbe87}{effetItem}}(\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb, \mbox{\hyperlink{class_item}{Item}} \&k1, \mbox{\hyperlink{class_item}{Item}} \&k2, \mbox{\hyperlink{class_item}{Item}} \&k3, \mbox{\hyperlink{class_item}{Item}} \&k4, \mbox{\hyperlink{class_item}{Item}} \&k5, \textcolor{keywordtype}{int} i, \textcolor{keywordtype}{int} j);}
+\DoxyCodeLine{178 }
+\DoxyCodeLine{184     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_map_ae33271c48d49849462c582f31695db68}{tuerMonstre}}();}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{193     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_map_a43d4aeb86d50e2bfb243661430b2f55d}{victoire}}();}
+\DoxyCodeLine{194 \};}
+\DoxyCodeLine{195 }
+\DoxyCodeLine{196 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

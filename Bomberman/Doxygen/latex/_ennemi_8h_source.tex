@@ -1,0 +1,51 @@
+\hypertarget{_ennemi_8h_source}{}\doxysection{Ennemi.\+h}
+\label{_ennemi_8h_source}\index{Ennemi/entete/Ennemi.h@{Ennemi/entete/Ennemi.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_ENNEMI\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_ENNEMI\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}../../Joueur/entete/Bomberman.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_ennemi}{Ennemi}}}
+\DoxyCodeLine{13 \{}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{16     \textcolor{keywordtype}{int} x;}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int} y;}
+\DoxyCodeLine{18     \textcolor{keywordtype}{int} nbvie = 20;}
+\DoxyCodeLine{19     \textcolor{keywordtype}{int} nbattaque = 50;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} valeur = 6;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} tmp;}
+\DoxyCodeLine{24     \textcolor{keywordtype}{bool} Vivant = \textcolor{keyword}{false};}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{31     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ennemi_a250b312bdb289814c59fcab7ad0267d1}{getX}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{38     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ennemi_ab461267c683063f4e719411130bcc859}{getY}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{45     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ennemi_a810609e7bad13e3ca1f948ccfca76217}{getNbvie}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ennemi_aae8e9e721caaaf21f64c0bcb7f21741b}{getNbattaque}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{59     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ennemi_acd7c889e672700487a0991cddb429095}{getValeur}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{66     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_a2d624efce5c1ca3753bc242956e16961}{setX}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{73     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_a700ac01f00e9b8575998e02f06fdbb4c}{setY}}(\textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{80     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_add85d811c7e3159c49a5a636d4f5da7a}{setNbvie}}(\textcolor{keywordtype}{int} nbvie);}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_a85cacd6f6dc2213d5a2ea12b24f97e8c}{setNbattaque}}(\textcolor{keywordtype}{int} nbattaque);}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{94     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_ad32f819e4c643251dbc6d89496813759}{attaquerPlayer}}(\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b);}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{101     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}{recevoirDegat}}(\mbox{\hyperlink{class_bomb}{Bomb}} \&boom);}
+\DoxyCodeLine{102 \};}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

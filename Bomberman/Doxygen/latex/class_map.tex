@@ -1,0 +1,376 @@
+\hypertarget{class_map}{}\doxysection{Map Class Reference}
+\label{class_map}\index{Map@{Map}}
+
+
+classe \mbox{\hyperlink{class_map}{Map}}  
+
+
+
+
+{\ttfamily \#include $<$Map.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_map_a5bb31030f5995a51a511020589af085a}{Map}} (std\+::string nom)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_map}{Map}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_map_a3e5323a1a499615842e82268202835a1}{afficher}} ()
+\item 
+void \mbox{\hyperlink{class_map_a631a845589a343ba46456209aa6a0d05}{creer\+Map}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_map_a75a868872f271da42e5dc73b3100b11c}{convertir}} (int i, int j)
+\item 
+void \mbox{\hyperlink{class_map_aa891d7b3e71139d484597804a434ea14}{remplir\+Mur}} (\mbox{\hyperlink{class_tile}{Tile}} w)
+\item 
+void \mbox{\hyperlink{class_map_aa84dc540500187118d75afc1d93e1d67}{remplir\+Sable}} (\mbox{\hyperlink{class_tile}{Tile}} w)
+\item 
+void \mbox{\hyperlink{class_map_a7a351146fbc6bc97c05a96a9691b5679}{remplir\+Item}} (\mbox{\hyperlink{class_item}{Item}} \&k)
+\item 
+void \mbox{\hyperlink{class_map_a80f12f3e816d076b1a11c08e9a5106af}{remplir\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\item 
+void \mbox{\hyperlink{class_map_a3d502d5da3943efb2ca41ad99661dbe3}{mouvement\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb, \mbox{\hyperlink{class_item}{Item}} \&k1, \mbox{\hyperlink{class_item}{Item}} \&k2, \mbox{\hyperlink{class_item}{Item}} \&k3, \mbox{\hyperlink{class_item}{Item}} \&k4, \mbox{\hyperlink{class_item}{Item}} \&k5)
+\item 
+void \mbox{\hyperlink{class_map_a98874d185347fb2832c05a2efb5f5205}{remplir\+Monstre}} (\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b)
+\item 
+void \mbox{\hyperlink{class_map_a3781a1ce34aca9bc339638a163f6d61f}{mouvement\+Monstre}} (\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&bo)
+\item 
+void \mbox{\hyperlink{class_map_a79ed35768a30ddf7b61b01bf078b1a12}{effet\+Monstre}} (\mbox{\hyperlink{class_ennemi}{Ennemi}} \&b, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&bo, int DI, int DJ, int deplacement)
+\item 
+void \mbox{\hyperlink{class_map_a15ef88ae87b77c6700521bc44d867a47}{explosion\+Bombe}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb)
+\item 
+void \mbox{\hyperlink{class_map_affcae4eeaae46467c650293445dfbe87}{effet\+Item}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b, \mbox{\hyperlink{class_bomb}{Bomb}} \&bomb, \mbox{\hyperlink{class_item}{Item}} \&k1, \mbox{\hyperlink{class_item}{Item}} \&k2, \mbox{\hyperlink{class_item}{Item}} \&k3, \mbox{\hyperlink{class_item}{Item}} \&k4, \mbox{\hyperlink{class_item}{Item}} \&k5, int i, int j)
+\item 
+void \mbox{\hyperlink{class_map_ae33271c48d49849462c582f31695db68}{tuer\+Monstre}} ()
+\item 
+bool \mbox{\hyperlink{class_map_a43d4aeb86d50e2bfb243661430b2f55d}{victoire}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_map_a2721413738b335905fff0728aadec177}\label{class_map_a2721413738b335905fff0728aadec177}} 
+int {\bfseries tab} \mbox{[}nbligne\mbox{]}\mbox{[}nbcolonne\mbox{]}
+\item 
+\mbox{\Hypertarget{class_map_afcdfea747e27d222310d302394dbca16}\label{class_map_afcdfea747e27d222310d302394dbca16}} 
+std\+::string {\bfseries nom}
+\item 
+\mbox{\Hypertarget{class_map_a969be58f367bbe42c5023e4f95d2b79a}\label{class_map_a969be58f367bbe42c5023e4f95d2b79a}} 
+\mbox{\hyperlink{class_monster}{Monster}} {\bfseries mons}
+\item 
+\mbox{\Hypertarget{class_map_a755cba5e5b076e812c32359eb19b73ce}\label{class_map_a755cba5e5b076e812c32359eb19b73ce}} 
+\mbox{\hyperlink{class_ghost}{Ghost}} {\bfseries ghos}
+\item 
+\mbox{\Hypertarget{class_map_af9a8a9ee0c14261a178b998b2f6f6a36}\label{class_map_af9a8a9ee0c14261a178b998b2f6f6a36}} 
+\mbox{\hyperlink{class_bowman}{Bowman}} {\bfseries bowm}
+\item 
+\mbox{\Hypertarget{class_map_a7c5b2fd71da3c1c4444923f70ddbf3ff}\label{class_map_a7c5b2fd71da3c1c4444923f70ddbf3ff}} 
+\mbox{\hyperlink{class_bomberman}{Bomberman}} {\bfseries player1}
+\item 
+\mbox{\Hypertarget{class_map_a9c34248c97eb1eca402df9d4102c5e82}\label{class_map_a9c34248c97eb1eca402df9d4102c5e82}} 
+\mbox{\hyperlink{class_bomb}{Bomb}} {\bfseries bomb1}
+\item 
+\mbox{\Hypertarget{class_map_a1565871e5f4f563be7582c11e58b23a9}\label{class_map_a1565871e5f4f563be7582c11e58b23a9}} 
+\mbox{\hyperlink{class_wall}{Wall}} {\bfseries wall}
+\item 
+\mbox{\Hypertarget{class_map_a31fd1a20c03fb04622866f8e0ef863ea}\label{class_map_a31fd1a20c03fb04622866f8e0ef863ea}} 
+\mbox{\hyperlink{class_sand}{Sand}} {\bfseries sand}
+\item 
+\mbox{\Hypertarget{class_map_a38de484afc2544890f713f6fcdbc5f01}\label{class_map_a38de484afc2544890f713f6fcdbc5f01}} 
+\mbox{\hyperlink{class_more_life}{More\+Life}} {\bfseries morL}
+\item 
+\mbox{\Hypertarget{class_map_a69471ae2d74aae71aa899a45843b7b8a}\label{class_map_a69471ae2d74aae71aa899a45843b7b8a}} 
+\mbox{\hyperlink{class_more_bomb}{More\+Bomb}} {\bfseries morB}
+\item 
+\mbox{\Hypertarget{class_map_ab8f85273290fc538ab0991617d6f3858}\label{class_map_ab8f85273290fc538ab0991617d6f3858}} 
+\mbox{\hyperlink{class_speed_up}{Speed\+Up}} {\bfseries spee}
+\item 
+\mbox{\Hypertarget{class_map_a05adf58be7107c737db675764d0bfaf3}\label{class_map_a05adf58be7107c737db675764d0bfaf3}} 
+\mbox{\hyperlink{class_scale_up}{Scale\+Up}} {\bfseries scal}
+\item 
+\mbox{\Hypertarget{class_map_a72e830caa8a4f0145c25ce0a919b8eaa}\label{class_map_a72e830caa8a4f0145c25ce0a919b8eaa}} 
+\mbox{\hyperlink{class_power_up}{Power\+Up}} {\bfseries power}
+\item 
+\mbox{\Hypertarget{class_map_a69f314254fdb7e91532ed2b2599be04b}\label{class_map_a69f314254fdb7e91532ed2b2599be04b}} 
+std\+::vector$<$ \mbox{\hyperlink{class_ennemi}{Ennemi}} $\ast$ $>$ {\bfseries tabM}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_map_a867240ebc9849ef1f2c57f307b561782}\label{class_map_a867240ebc9849ef1f2c57f307b561782}} 
+int static const {\bfseries nbligne} = 14
+\item 
+\mbox{\Hypertarget{class_map_a47b25b2ac31e943a224e289fa9e1cac6}\label{class_map_a47b25b2ac31e943a224e289fa9e1cac6}} 
+int static const {\bfseries nbcolonne} = 14
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe \mbox{\hyperlink{class_map}{Map}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_map_a5bb31030f5995a51a511020589af085a}\label{class_map_a5bb31030f5995a51a511020589af085a}} 
+\index{Map@{Map}!Map@{Map}}
+\index{Map@{Map}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}}
+{\footnotesize\ttfamily Map\+::\+Map (\begin{DoxyParamCaption}\item[{std\+::string}]{nom }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_map}{Map}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_map_a3e5323a1a499615842e82268202835a1}\label{class_map_a3e5323a1a499615842e82268202835a1}} 
+\index{Map@{Map}!afficher@{afficher}}
+\index{afficher@{afficher}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{afficher()}{afficher()}}
+{\footnotesize\ttfamily void Map\+::afficher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{class_map_a75a868872f271da42e5dc73b3100b11c}\label{class_map_a75a868872f271da42e5dc73b3100b11c}} 
+\index{Map@{Map}!convertir@{convertir}}
+\index{convertir@{convertir}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{convertir()}{convertir()}}
+{\footnotesize\ttfamily string Map\+::convertir (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+{\em j} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_map_a631a845589a343ba46456209aa6a0d05}\label{class_map_a631a845589a343ba46456209aa6a0d05}} 
+\index{Map@{Map}!creerMap@{creerMap}}
+\index{creerMap@{creerMap}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{creerMap()}{creerMap()}}
+{\footnotesize\ttfamily void Map\+::creer\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{class_map_affcae4eeaae46467c650293445dfbe87}\label{class_map_affcae4eeaae46467c650293445dfbe87}} 
+\index{Map@{Map}!effetItem@{effetItem}}
+\index{effetItem@{effetItem}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{effetItem()}{effetItem()}}
+{\footnotesize\ttfamily void Map\+::effet\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b,  }\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{bomb,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k1,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k2,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k3,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k4,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k5,  }\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em bomb} & \\
+\hline
+{\em k1} & \\
+\hline
+{\em k2} & \\
+\hline
+{\em k3} & \\
+\hline
+{\em k4} & \\
+\hline
+{\em k5} & \\
+\hline
+{\em i} & \\
+\hline
+{\em j} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a79ed35768a30ddf7b61b01bf078b1a12}\label{class_map_a79ed35768a30ddf7b61b01bf078b1a12}} 
+\index{Map@{Map}!effetMonstre@{effetMonstre}}
+\index{effetMonstre@{effetMonstre}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{effetMonstre()}{effetMonstre()}}
+{\footnotesize\ttfamily void Map\+::effet\+Monstre (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ennemi}{Ennemi}} \&}]{b,  }\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{bo,  }\item[{int}]{DI,  }\item[{int}]{DJ,  }\item[{int}]{deplacement }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em bo} & \\
+\hline
+{\em DI} & \\
+\hline
+{\em DJ} & \\
+\hline
+{\em deplacement} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a15ef88ae87b77c6700521bc44d867a47}\label{class_map_a15ef88ae87b77c6700521bc44d867a47}} 
+\index{Map@{Map}!explosionBombe@{explosionBombe}}
+\index{explosionBombe@{explosionBombe}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{explosionBombe()}{explosionBombe()}}
+{\footnotesize\ttfamily void Map\+::explosion\+Bombe (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b,  }\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{bomb }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em bomb} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a3781a1ce34aca9bc339638a163f6d61f}\label{class_map_a3781a1ce34aca9bc339638a163f6d61f}} 
+\index{Map@{Map}!mouvementMonstre@{mouvementMonstre}}
+\index{mouvementMonstre@{mouvementMonstre}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{mouvementMonstre()}{mouvementMonstre()}}
+{\footnotesize\ttfamily void Map\+::mouvement\+Monstre (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ennemi}{Ennemi}} \&}]{b,  }\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{bo }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em bo} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a3d502d5da3943efb2ca41ad99661dbe3}\label{class_map_a3d502d5da3943efb2ca41ad99661dbe3}} 
+\index{Map@{Map}!mouvementPlayer@{mouvementPlayer}}
+\index{mouvementPlayer@{mouvementPlayer}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{mouvementPlayer()}{mouvementPlayer()}}
+{\footnotesize\ttfamily void Map\+::mouvement\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b,  }\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{bomb,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k1,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k2,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k3,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k4,  }\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k5 }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em bomb} & \\
+\hline
+{\em k1} & \\
+\hline
+{\em k2} & \\
+\hline
+{\em k3} & \\
+\hline
+{\em k4} & \\
+\hline
+{\em k5} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a7a351146fbc6bc97c05a96a9691b5679}\label{class_map_a7a351146fbc6bc97c05a96a9691b5679}} 
+\index{Map@{Map}!remplirItem@{remplirItem}}
+\index{remplirItem@{remplirItem}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{remplirItem()}{remplirItem()}}
+{\footnotesize\ttfamily void Map\+::remplir\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_item}{Item}} \&}]{k }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em k} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a98874d185347fb2832c05a2efb5f5205}\label{class_map_a98874d185347fb2832c05a2efb5f5205}} 
+\index{Map@{Map}!remplirMonstre@{remplirMonstre}}
+\index{remplirMonstre@{remplirMonstre}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{remplirMonstre()}{remplirMonstre()}}
+{\footnotesize\ttfamily void Map\+::remplir\+Monstre (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ennemi}{Ennemi}} \&}]{b }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_aa891d7b3e71139d484597804a434ea14}\label{class_map_aa891d7b3e71139d484597804a434ea14}} 
+\index{Map@{Map}!remplirMur@{remplirMur}}
+\index{remplirMur@{remplirMur}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{remplirMur()}{remplirMur()}}
+{\footnotesize\ttfamily void Map\+::remplir\+Mur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tile}{Tile}}}]{w }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_a80f12f3e816d076b1a11c08e9a5106af}\label{class_map_a80f12f3e816d076b1a11c08e9a5106af}} 
+\index{Map@{Map}!remplirPlayer@{remplirPlayer}}
+\index{remplirPlayer@{remplirPlayer}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{remplirPlayer()}{remplirPlayer()}}
+{\footnotesize\ttfamily void Map\+::remplir\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_aa84dc540500187118d75afc1d93e1d67}\label{class_map_aa84dc540500187118d75afc1d93e1d67}} 
+\index{Map@{Map}!remplirSable@{remplirSable}}
+\index{remplirSable@{remplirSable}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{remplirSable()}{remplirSable()}}
+{\footnotesize\ttfamily void Map\+::remplir\+Sable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tile}{Tile}}}]{w }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em w} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_map_ae33271c48d49849462c582f31695db68}\label{class_map_ae33271c48d49849462c582f31695db68}} 
+\index{Map@{Map}!tuerMonstre@{tuerMonstre}}
+\index{tuerMonstre@{tuerMonstre}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{tuerMonstre()}{tuerMonstre()}}
+{\footnotesize\ttfamily void Map\+::tuer\+Monstre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{class_map_a43d4aeb86d50e2bfb243661430b2f55d}\label{class_map_a43d4aeb86d50e2bfb243661430b2f55d}} 
+\index{Map@{Map}!victoire@{victoire}}
+\index{victoire@{victoire}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{victoire()}{victoire()}}
+{\footnotesize\ttfamily bool Map\+::victoire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE \& walid AIT ERRAMI
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Map/entete/Map.\+h\item 
+Map/Map.\+cpp\end{DoxyCompactItemize}

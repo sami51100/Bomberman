@@ -1,0 +1,269 @@
+\hypertarget{class_ennemi}{}\doxysection{Ennemi Class Reference}
+\label{class_ennemi}\index{Ennemi@{Ennemi}}
+
+
+classe mère \mbox{\hyperlink{class_ennemi}{Ennemi}}  
+
+
+
+
+{\ttfamily \#include $<$Ennemi.\+h$>$}
+
+Inheritance diagram for Ennemi\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ennemi}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_ennemi_a250b312bdb289814c59fcab7ad0267d1}{getX}} () const
+\item 
+int \mbox{\hyperlink{class_ennemi_ab461267c683063f4e719411130bcc859}{getY}} () const
+\item 
+int \mbox{\hyperlink{class_ennemi_a810609e7bad13e3ca1f948ccfca76217}{get\+Nbvie}} () const
+\begin{DoxyCompactList}\small\item\em Get the Nbvie object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_ennemi_aae8e9e721caaaf21f64c0bcb7f21741b}{get\+Nbattaque}} () const
+\begin{DoxyCompactList}\small\item\em Get the Nbattaque object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_ennemi_acd7c889e672700487a0991cddb429095}{get\+Valeur}} () const
+\begin{DoxyCompactList}\small\item\em Get the Valeur object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ennemi_a2d624efce5c1ca3753bc242956e16961}{setX}} (int x)
+\begin{DoxyCompactList}\small\item\em setter \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ennemi_a700ac01f00e9b8575998e02f06fdbb4c}{setY}} (int y)
+\begin{DoxyCompactList}\small\item\em setter \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ennemi_add85d811c7e3159c49a5a636d4f5da7a}{set\+Nbvie}} (int nbvie)
+\begin{DoxyCompactList}\small\item\em Set the Nbvie object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ennemi_a85cacd6f6dc2213d5a2ea12b24f97e8c}{set\+Nbattaque}} (int nbattaque)
+\begin{DoxyCompactList}\small\item\em Set the Nbattaque object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ennemi_ad32f819e4c643251dbc6d89496813759}{attaquer\+Player}} (\mbox{\hyperlink{class_bomberman}{Bomberman}} \&b)
+\begin{DoxyCompactList}\small\item\em methode virtual pour infliger des degats au joueur \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}{recevoir\+Degat}} (\mbox{\hyperlink{class_bomb}{Bomb}} \&boom)
+\begin{DoxyCompactList}\small\item\em methode virtual pour recevoir des degats \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ennemi_abee5b3425cdd535bd65f220c062ce4ca}\label{class_ennemi_abee5b3425cdd535bd65f220c062ce4ca}} 
+int {\bfseries tmp}
+\item 
+\mbox{\Hypertarget{class_ennemi_ac66fbac6205e1d87830993af7543e013}\label{class_ennemi_ac66fbac6205e1d87830993af7543e013}} 
+bool {\bfseries Vivant} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ennemi_aa4be40e1c948bdf37a3b7ba4f24d1667}\label{class_ennemi_aa4be40e1c948bdf37a3b7ba4f24d1667}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_ennemi_a45cdb70bdd067bb323209e56c9888e67}\label{class_ennemi_a45cdb70bdd067bb323209e56c9888e67}} 
+int {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_ennemi_a5542fe7dd48b16cbc9a48125bcdee964}\label{class_ennemi_a5542fe7dd48b16cbc9a48125bcdee964}} 
+int {\bfseries nbvie} = 20
+\item 
+\mbox{\Hypertarget{class_ennemi_a257b28dcd693499775b49a041a74eee5}\label{class_ennemi_a257b28dcd693499775b49a041a74eee5}} 
+int {\bfseries nbattaque} = 50
+\item 
+\mbox{\Hypertarget{class_ennemi_a2f9ad005f79417dabb7bccf3cec90756}\label{class_ennemi_a2f9ad005f79417dabb7bccf3cec90756}} 
+int {\bfseries valeur} = 6
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe mère \mbox{\hyperlink{class_ennemi}{Ennemi}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ennemi_ad32f819e4c643251dbc6d89496813759}\label{class_ennemi_ad32f819e4c643251dbc6d89496813759}} 
+\index{Ennemi@{Ennemi}!attaquerPlayer@{attaquerPlayer}}
+\index{attaquerPlayer@{attaquerPlayer}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{attaquerPlayer()}{attaquerPlayer()}}
+{\footnotesize\ttfamily void Ennemi\+::attaquer\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode virtual pour infliger des degats au joueur 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_bowman_a690117044e6f8a421bbfd3863e19ca7a}{Bowman}}, \mbox{\hyperlink{class_ghost_acd13d5a50f06be1b8dcdfff54d2fc2cc}{Ghost}}, and \mbox{\hyperlink{class_monster_a4b3521c82de803dbde9064462c761f02}{Monster}}.
+
+\mbox{\Hypertarget{class_ennemi_aae8e9e721caaaf21f64c0bcb7f21741b}\label{class_ennemi_aae8e9e721caaaf21f64c0bcb7f21741b}} 
+\index{Ennemi@{Ennemi}!getNbattaque@{getNbattaque}}
+\index{getNbattaque@{getNbattaque}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{getNbattaque()}{getNbattaque()}}
+{\footnotesize\ttfamily int Ennemi\+::get\+Nbattaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Nbattaque object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ennemi_a810609e7bad13e3ca1f948ccfca76217}\label{class_ennemi_a810609e7bad13e3ca1f948ccfca76217}} 
+\index{Ennemi@{Ennemi}!getNbvie@{getNbvie}}
+\index{getNbvie@{getNbvie}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{getNbvie()}{getNbvie()}}
+{\footnotesize\ttfamily int Ennemi\+::get\+Nbvie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Nbvie object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ennemi_acd7c889e672700487a0991cddb429095}\label{class_ennemi_acd7c889e672700487a0991cddb429095}} 
+\index{Ennemi@{Ennemi}!getValeur@{getValeur}}
+\index{getValeur@{getValeur}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{getValeur()}{getValeur()}}
+{\footnotesize\ttfamily int Ennemi\+::get\+Valeur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Valeur object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ennemi_a250b312bdb289814c59fcab7ad0267d1}\label{class_ennemi_a250b312bdb289814c59fcab7ad0267d1}} 
+\index{Ennemi@{Ennemi}!getX@{getX}}
+\index{getX@{getX}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int Ennemi\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ennemi_ab461267c683063f4e719411130bcc859}\label{class_ennemi_ab461267c683063f4e719411130bcc859}} 
+\index{Ennemi@{Ennemi}!getY@{getY}}
+\index{getY@{getY}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int Ennemi\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}\label{class_ennemi_a2f7d98aff5bdbc46f31204e3d441444e}} 
+\index{Ennemi@{Ennemi}!recevoirDegat@{recevoirDegat}}
+\index{recevoirDegat@{recevoirDegat}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{recevoirDegat()}{recevoirDegat()}}
+{\footnotesize\ttfamily void Ennemi\+::recevoir\+Degat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bomb}{Bomb}} \&}]{boom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode virtual pour recevoir des degats 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em boom} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_bowman_a7236d338ded4e914bf489519bf286cfc}{Bowman}}, \mbox{\hyperlink{class_ghost_a6ad4f696942e457ee3395312ed800387}{Ghost}}, and \mbox{\hyperlink{class_monster_ac66eff770a945089543f9c7ffdbbc158}{Monster}}.
+
+\mbox{\Hypertarget{class_ennemi_a85cacd6f6dc2213d5a2ea12b24f97e8c}\label{class_ennemi_a85cacd6f6dc2213d5a2ea12b24f97e8c}} 
+\index{Ennemi@{Ennemi}!setNbattaque@{setNbattaque}}
+\index{setNbattaque@{setNbattaque}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{setNbattaque()}{setNbattaque()}}
+{\footnotesize\ttfamily void Ennemi\+::set\+Nbattaque (\begin{DoxyParamCaption}\item[{int}]{nbattaque }\end{DoxyParamCaption})}
+
+
+
+Set the Nbattaque object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nbattaque} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ennemi_add85d811c7e3159c49a5a636d4f5da7a}\label{class_ennemi_add85d811c7e3159c49a5a636d4f5da7a}} 
+\index{Ennemi@{Ennemi}!setNbvie@{setNbvie}}
+\index{setNbvie@{setNbvie}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{setNbvie()}{setNbvie()}}
+{\footnotesize\ttfamily void Ennemi\+::set\+Nbvie (\begin{DoxyParamCaption}\item[{int}]{nbvie }\end{DoxyParamCaption})}
+
+
+
+Set the Nbvie object. 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nbvie} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ennemi_a2d624efce5c1ca3753bc242956e16961}\label{class_ennemi_a2d624efce5c1ca3753bc242956e16961}} 
+\index{Ennemi@{Ennemi}!setX@{setX}}
+\index{setX@{setX}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Ennemi\+::setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+setter 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ennemi_a700ac01f00e9b8575998e02f06fdbb4c}\label{class_ennemi_a700ac01f00e9b8575998e02f06fdbb4c}} 
+\index{Ennemi@{Ennemi}!setY@{setY}}
+\index{setY@{setY}!Ennemi@{Ennemi}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily void Ennemi\+::setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+setter 
+
+\begin{DoxyAuthor}{Author}
+Walid AIT ERRAMI 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ennemi/entete/Ennemi.\+h\item 
+Ennemi/Ennemi.\+cpp\end{DoxyCompactItemize}

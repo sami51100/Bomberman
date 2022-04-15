@@ -1,0 +1,357 @@
+\hypertarget{class_bomberman}{}\doxysection{Bomberman Class Reference}
+\label{class_bomberman}\index{Bomberman@{Bomberman}}
+
+
+classe du bomberman  
+
+
+
+
+{\ttfamily \#include $<$Bomberman.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bomberman_aca6094ac4d1388aa7e2c746bd2daa58c}{Bomberman}} (std\+::string nom, int vie, int x, int y, int vitesse, int nb\+Bomb, \mbox{\hyperlink{class_bomb}{Bomb}} boom)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_bomberman}{Bomberman}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bomberman_adeb46eff1b0f84642c6f692e307e8e92}{Bomberman}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_bomberman}{Bomberman}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bomberman_a25b96eba887477998856d90cc025b84b}{getX}} () const
+\item 
+int \mbox{\hyperlink{class_bomberman_a73dad91c1ca6555b556e4cb86678a624}{getY}} () const
+\item 
+int \mbox{\hyperlink{class_bomberman_afda39042df7cbc9273ae003fff9912d8}{get\+Vie}} () const
+\begin{DoxyCompactList}\small\item\em Get the Vie object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bomberman_aeda47741aba570bdf38731dfb6bc6174}{get\+Vitesse}} () const
+\begin{DoxyCompactList}\small\item\em Get the Vitesse object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bomberman_ad9a455dd4e56dcf2ba1bf59c70182c4d}{get\+Nb\+Bomb}} () const
+\begin{DoxyCompactList}\small\item\em Get the Nb \mbox{\hyperlink{class_bomb}{Bomb}} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bomberman_a6a8fbcdbf2592373534342a52bd874bb}{get\+Valeur}} () const
+\begin{DoxyCompactList}\small\item\em Get the Valeur object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bomberman_a8185b5a204160f4c73a9157bde92a37d}{setX}} (int x)
+\item 
+void \mbox{\hyperlink{class_bomberman_ab8ea6075dd21be984e1062a5fbfa03f8}{setY}} (int y)
+\item 
+void \mbox{\hyperlink{class_bomberman_a8e235376e79f4184e2daf248e9e4b00a}{set\+Vie}} (int vie)
+\begin{DoxyCompactList}\small\item\em Set the Vie object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bomberman_a11c1139077a5040983646c57fc71143c}{set\+Vitesse}} (int vitesse)
+\begin{DoxyCompactList}\small\item\em Set the Vitesse object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bomberman_a5cf19d99baf3498747f747c5f18b2056}{set\+Nb\+Bomb}} (int nb\+Bomb)
+\begin{DoxyCompactList}\small\item\em Set the Nb \mbox{\hyperlink{class_bomb}{Bomb}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bomberman_a2dc4983be4324fe15b633a496bae7e6d}\label{class_bomberman_a2dc4983be4324fe15b633a496bae7e6d}} 
+bool {\bfseries Vivant} = false
+\item 
+\mbox{\Hypertarget{class_bomberman_aa9d966feb70c477239226b21c1d1210e}\label{class_bomberman_aa9d966feb70c477239226b21c1d1210e}} 
+std\+::vector$<$ \mbox{\hyperlink{class_bomb}{Bomb}} $>$ {\bfseries tabB}
+\item 
+\mbox{\Hypertarget{class_bomberman_add818c190168db20319bfa33108a6c6d}\label{class_bomberman_add818c190168db20319bfa33108a6c6d}} 
+\mbox{\hyperlink{class_bomb}{Bomb}} {\bfseries boom}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bomberman_a9c65cd795544a1bcdd219e9c531881f4}\label{class_bomberman_a9c65cd795544a1bcdd219e9c531881f4}} 
+std\+::string {\bfseries nom}
+\item 
+\mbox{\Hypertarget{class_bomberman_af7bc30db663caaf909aac28edcf817fc}\label{class_bomberman_af7bc30db663caaf909aac28edcf817fc}} 
+int {\bfseries vie} = 100
+\item 
+\mbox{\Hypertarget{class_bomberman_a250415e80689b51e1d0ae735bdfd50f6}\label{class_bomberman_a250415e80689b51e1d0ae735bdfd50f6}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_bomberman_ae5cdb8cd9a5bd0bfa4d2f580e68af6f6}\label{class_bomberman_ae5cdb8cd9a5bd0bfa4d2f580e68af6f6}} 
+int {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_bomberman_aa2037a7a1e8ae391f9025ace710ece14}\label{class_bomberman_aa2037a7a1e8ae391f9025ace710ece14}} 
+int {\bfseries vitesse} = 1
+\item 
+\mbox{\Hypertarget{class_bomberman_a3065c5468dee228137a1650d0b3b05c9}\label{class_bomberman_a3065c5468dee228137a1650d0b3b05c9}} 
+int {\bfseries nb\+Bomb} = 3
+\item 
+\mbox{\Hypertarget{class_bomberman_a7d49d4f5be7af7b3e964505dbded8fab}\label{class_bomberman_a7d49d4f5be7af7b3e964505dbded8fab}} 
+int {\bfseries valeur} = 1
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_bomberman_a174f658e7a87c3d723fbd130a0370ce9}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_bomberman}{Bomberman}} \&p)
+\item 
+std\+::istream \& \mbox{\hyperlink{class_bomberman_ab8680ae266cfecb389a9b272cea364d8}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{class_bomberman}{Bomberman}} \&p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe du bomberman 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bomberman_aca6094ac4d1388aa7e2c746bd2daa58c}\label{class_bomberman_aca6094ac4d1388aa7e2c746bd2daa58c}} 
+\index{Bomberman@{Bomberman}!Bomberman@{Bomberman}}
+\index{Bomberman@{Bomberman}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{Bomberman()}{Bomberman()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bomberman\+::\+Bomberman (\begin{DoxyParamCaption}\item[{std\+::string}]{nom,  }\item[{int}]{vie,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{vitesse,  }\item[{int}]{nb\+Bomb,  }\item[{\mbox{\hyperlink{class_bomb}{Bomb}}}]{boom }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_bomberman}{Bomberman}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em vie} & \\
+\hline
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em vitesse} & \\
+\hline
+{\em nb\+Bomb} & \\
+\hline
+{\em boom} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bomberman_adeb46eff1b0f84642c6f692e307e8e92}\label{class_bomberman_adeb46eff1b0f84642c6f692e307e8e92}} 
+\index{Bomberman@{Bomberman}!Bomberman@{Bomberman}}
+\index{Bomberman@{Bomberman}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{Bomberman()}{Bomberman()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bomberman\+::\+Bomberman (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_bomberman}{Bomberman}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bomberman_ad9a455dd4e56dcf2ba1bf59c70182c4d}\label{class_bomberman_ad9a455dd4e56dcf2ba1bf59c70182c4d}} 
+\index{Bomberman@{Bomberman}!getNbBomb@{getNbBomb}}
+\index{getNbBomb@{getNbBomb}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getNbBomb()}{getNbBomb()}}
+{\footnotesize\ttfamily int Bomberman\+::get\+Nb\+Bomb (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Nb \mbox{\hyperlink{class_bomb}{Bomb}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_a6a8fbcdbf2592373534342a52bd874bb}\label{class_bomberman_a6a8fbcdbf2592373534342a52bd874bb}} 
+\index{Bomberman@{Bomberman}!getValeur@{getValeur}}
+\index{getValeur@{getValeur}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getValeur()}{getValeur()}}
+{\footnotesize\ttfamily int Bomberman\+::get\+Valeur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Valeur object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_afda39042df7cbc9273ae003fff9912d8}\label{class_bomberman_afda39042df7cbc9273ae003fff9912d8}} 
+\index{Bomberman@{Bomberman}!getVie@{getVie}}
+\index{getVie@{getVie}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getVie()}{getVie()}}
+{\footnotesize\ttfamily int Bomberman\+::get\+Vie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Vie object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_aeda47741aba570bdf38731dfb6bc6174}\label{class_bomberman_aeda47741aba570bdf38731dfb6bc6174}} 
+\index{Bomberman@{Bomberman}!getVitesse@{getVitesse}}
+\index{getVitesse@{getVitesse}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getVitesse()}{getVitesse()}}
+{\footnotesize\ttfamily int Bomberman\+::get\+Vitesse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the Vitesse object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_a25b96eba887477998856d90cc025b84b}\label{class_bomberman_a25b96eba887477998856d90cc025b84b}} 
+\index{Bomberman@{Bomberman}!getX@{getX}}
+\index{getX@{getX}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int Bomberman\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_a73dad91c1ca6555b556e4cb86678a624}\label{class_bomberman_a73dad91c1ca6555b556e4cb86678a624}} 
+\index{Bomberman@{Bomberman}!getY@{getY}}
+\index{getY@{getY}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int Bomberman\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_a5cf19d99baf3498747f747c5f18b2056}\label{class_bomberman_a5cf19d99baf3498747f747c5f18b2056}} 
+\index{Bomberman@{Bomberman}!setNbBomb@{setNbBomb}}
+\index{setNbBomb@{setNbBomb}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{setNbBomb()}{setNbBomb()}}
+{\footnotesize\ttfamily void Bomberman\+::set\+Nb\+Bomb (\begin{DoxyParamCaption}\item[{int}]{nb\+Bomb }\end{DoxyParamCaption})}
+
+
+
+Set the Nb \mbox{\hyperlink{class_bomb}{Bomb}} object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em nb\+Bomb} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bomberman_a8e235376e79f4184e2daf248e9e4b00a}\label{class_bomberman_a8e235376e79f4184e2daf248e9e4b00a}} 
+\index{Bomberman@{Bomberman}!setVie@{setVie}}
+\index{setVie@{setVie}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{setVie()}{setVie()}}
+{\footnotesize\ttfamily void Bomberman\+::set\+Vie (\begin{DoxyParamCaption}\item[{int}]{vie }\end{DoxyParamCaption})}
+
+
+
+Set the Vie object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em vie} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bomberman_a11c1139077a5040983646c57fc71143c}\label{class_bomberman_a11c1139077a5040983646c57fc71143c}} 
+\index{Bomberman@{Bomberman}!setVitesse@{setVitesse}}
+\index{setVitesse@{setVitesse}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{setVitesse()}{setVitesse()}}
+{\footnotesize\ttfamily void Bomberman\+::set\+Vitesse (\begin{DoxyParamCaption}\item[{int}]{vitesse }\end{DoxyParamCaption})}
+
+
+
+Set the Vitesse object. 
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em vitesse} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bomberman_a8185b5a204160f4c73a9157bde92a37d}\label{class_bomberman_a8185b5a204160f4c73a9157bde92a37d}} 
+\index{Bomberman@{Bomberman}!setX@{setX}}
+\index{setX@{setX}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Bomberman\+::setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bomberman_ab8ea6075dd21be984e1062a5fbfa03f8}\label{class_bomberman_ab8ea6075dd21be984e1062a5fbfa03f8}} 
+\index{Bomberman@{Bomberman}!setY@{setY}}
+\index{setY@{setY}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily void Bomberman\+::setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_bomberman_a174f658e7a87c3d723fbd130a0370ce9}\label{class_bomberman_a174f658e7a87c3d723fbd130a0370ce9}} 
+\index{Bomberman@{Bomberman}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em os} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::ostream\& 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bomberman_ab8680ae266cfecb389a9b272cea364d8}\label{class_bomberman_ab8680ae266cfecb389a9b272cea364d8}} 
+\index{Bomberman@{Bomberman}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Bomberman@{Bomberman}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{is,  }\item[{\mbox{\hyperlink{class_bomberman}{Bomberman}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\begin{DoxyAuthor}{Author}
+sami DRIOUCHE 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em is} & \\
+\hline
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::istream\& 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Joueur/entete/Bomberman.\+h\item 
+Joueur/Bomberman.\+cpp\end{DoxyCompactItemize}
